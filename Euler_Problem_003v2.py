@@ -19,6 +19,7 @@ factors() function removing the is_prime() function'
 
 
 def factors(n):
+    # search for factors to determine if prime
     factors = []
     for x in range(1, n + 1):
         y = n % x
@@ -36,20 +37,17 @@ def reverse_detect_prime(n):
     while i < (int(n / 2) + 1):
         test = (n / i)
         if test == int(test):
-            # print statement to show progress
-            print("found a factor: ", test, ":divisor = ", i)
             # check if result is prime
             if test % 2 != 0:
                 # check for primeness
-                print("factor: ", test, " is not Even... checking for prime!!")
                 testPrime = factors(int(test))
                 if testPrime is True:
                     # print final result
                     print(test, " is the largest prime factor of ", n)
                     break
                 else:
-                    # print statement to show progress
-                    print(test, " is odd but not prime")
+                    print("searching for largest prime factor of:\n", n,
+                          "\n found factor, checking if prime... please wait")
         i += 1
 
 
