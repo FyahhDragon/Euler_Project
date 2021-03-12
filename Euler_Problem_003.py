@@ -46,11 +46,11 @@ def reverse_detect_prime(n):
     while i < (int(n / 2) + 1):
         test = (n / i)
         if test == int(test):
-            # print staement to show progress
+            # print statement to show progress
             print("found a factor: ", test, ":divisor = ", i)
             # check if result is prime
             if test % 2 != 0:
-                # print staement to show progress
+                # print statement to show progress
                 print("factor: ", test, " is not Even... checking for prime!!")
                 testPrime = is_prime(int(test))
                 if testPrime is True:
@@ -58,7 +58,7 @@ def reverse_detect_prime(n):
                     print(test, " is the largest prime factor of ", n)
                     break
                 else:
-                    # print staement to show progress
+                    # print statement to show progress
                     print(test, " is odd but not prime")
         i += 1
 
