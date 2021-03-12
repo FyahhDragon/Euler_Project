@@ -55,41 +55,4 @@ reverse_detect_prime(600851475143)
 
 """ Result:
     Largest Prime Factor of 600851475143 is 6857
-
-    search path results starting with largest factor
-    and checking if prime if not an even number:
-
-found a factor:  8462696833.0 ...divisor =  71
-factor:  8462696833.0 ...is not Even... checking for prime!!
-8462696833.0  is odd but not prime
-found a factor:  716151937.0 ...divisor =  839
-factor:  716151937.0 ...is not Even... checking for prime!!
-716151937.0  is odd but not prime
-found a factor:  408464633.0 ...divisor =  1471
-factor:  408464633.0 ...is not Even... checking for prime!!
-408464633.0  is odd but not prime
-found a factor:  87625999.0 ...divisor =  6857
-factor:  87625999.0 ...is not Even... checking for prime!!
-87625999.0  is odd but not prime
-found a factor:  10086647.0 ...divisor =  59569
-factor:  10086647.0 ...is not Even... checking for prime!!
-10086647.0  is odd but not prime
-found a factor:  5753023.0 ...divisor =  104441
-factor:  5753023.0 ...is not Even... checking for prime!!
-5753023.0  is odd but not prime
-found a factor:  1234169.0 ...divisor =  486847
-factor:  1234169.0 ...is not Even... checking for prime!!
-1234169.0  is odd but not prime
-found a factor:  486847.0 ...divisor =  1234169
-factor:  486847.0 ...is not Even... checking for prime!!
-486847.0  is odd but not prime
-found a factor:  104441.0 ...divisor =  5753023
-factor:  104441.0 ...is not Even... checking for prime!!
-104441.0  is odd but not prime
-found a factor:  59569.0 ...divisor =  10086647
-factor:  59569.0 ...is not Even... checking for prime!!
-59569.0  is odd but not prime
-found a factor:  6857.0 ...divisor =  87625999
-factor:  6857.0 ...is not Even... checking for prime!!
-6857.0  is the largest prime factor of  600851475143
 """
