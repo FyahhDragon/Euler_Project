@@ -17,13 +17,14 @@ def is_palindrome(number):
     n = str(number)
     y = -1
     count = 0
-    for x in range(0, len(n)):
+    half = int(len(n) / 2)
+    for x in range(0, half):
         if n[x] != n[y]:
             return False
         else:
             count += 1
             y -= 1
-            if count == len(n):
+            if count == half:
                 return True
 
 
